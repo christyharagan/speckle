@@ -1,0 +1,21 @@
+{
+  "name": "speckle",
+  "version": "0.1.0",
+  "description": "Create SPARQL rules and queries using a typed API",
+  "main": "dist/lib/index.js",
+  "repository": "christyharagan/speckle",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "typescript": {
+    "definition": "speckle.d.ts"
+  },
+  "keywords": [
+    "sparql",
+    "builder",
+    "typescript"
+  ],
+  "license": "MIT"
+}
