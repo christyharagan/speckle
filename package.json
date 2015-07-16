@@ -1,6 +1,6 @@
 {
   "name": "speckle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create SPARQL rules and queries using a typed API",
   "main": "dist/lib/index.js",
   "repository": "christyharagan/speckle",

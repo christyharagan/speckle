@@ -21,7 +21,7 @@ export function rule(name: string): Rule {
 
 function _rule(ruleSet:string, pb: PrefixBuilder, name: string): Rule {
   return {
-    when: _when.bind(null, ruleSet, name, [])
+    when: _when.bind(null, ruleSet, name, [], pb)
   }
 }
 
@@ -39,11 +39,11 @@ rule "${ruleName}" CONSTRUCT {
       for (let i = 0; i < ands.length - 1; i++) {
         let and = ands[i]
         ruleSet += `
-  ${and[0]} ${and[0]} ${and[0]} .`
+  ${v(and[0])} ${v(and[1])} ${v(and[2])} .`
       }
-      let and = ands[length - 1]
+      let and = ands[ands.length - 1]
       ruleSet += `
-  ${and[0]} ${and[0]} ${and[0]}
+  ${v(and[0])} ${v(and[1])} ${v(and[2])}
 }`
       return {
         toSparql(): string {
