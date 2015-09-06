@@ -11,6 +11,10 @@
         "target": "es5",
         "outDir": "./dist"
     },
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2
+    },
     "filesGlob": [
         "./lib/**/*.ts",
         "./speckle.d.ts"

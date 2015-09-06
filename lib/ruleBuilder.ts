@@ -49,7 +49,7 @@ rule "${ruleName}" CONSTRUCT {
         toSparql(): string {
           return pb.toSparql(ruleSet)
         },
-        rule: <(name:string)=>Rule>_rule.bind(null, ruleSet)
+        rule: <(name:string)=>Rule>_rule.bind(null, ruleSet, pb)
       }
     }
   }
