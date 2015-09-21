@@ -5,28 +5,27 @@
         "module": "commonjs",
         "noImplicitAny": false,
         "noLib": false,
-        "rootDir": ".",
+        "rootDir": "./src",
         "sourceMap": true,
         "sourceRoot": ".",
         "target": "es5",
-        "outDir": "./dist"
+        "outDir": "."
     },
     "formatCodeOptions": {
         "indentSize": 2,
         "tabSize": 2
     },
     "filesGlob": [
-        "./lib/**/*.ts",
+        "./src/**/*.ts",
         "./speckle.d.ts"
     ],
     "compileOnSave": true,
     "files": [
-        "./lib/index.ts",
-        "./lib/prefix.ts",
-        "./lib/queryBuilder.ts",
-        "./lib/ruleBuilder.ts",
-        "./lib/value.ts",
-        "./lib/variable.ts",
-        "./speckle.d.ts"
+        "./src/lib/index.ts",
+        "./src/lib/prefix.ts",
+        "./src/lib/queryBuilder.ts",
+        "./src/lib/ruleBuilder.ts",
+        "./src/lib/value.ts",
+        "./src/lib/variable.ts"
     ]
 }
