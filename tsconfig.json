@@ -21,11 +21,13 @@
     ],
     "compileOnSave": true,
     "files": [
-        "./src/lib/index.ts",
-        "./src/lib/prefix.ts",
-        "./src/lib/queryBuilder.ts",
-        "./src/lib/ruleBuilder.ts",
-        "./src/lib/value.ts",
-        "./src/lib/variable.ts"
-    ]
+        "src/lib/index.ts",
+        "src/lib/prefix.ts",
+        "src/lib/queryBuilder.ts",
+        "src/lib/ruleBuilder.ts",
+        "src/lib/value.ts",
+        "src/lib/variable.ts",
+        "speckle.d.ts"
+    ],
+    "exclude": []
 }
